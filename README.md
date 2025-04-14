@@ -62,7 +62,10 @@ python yacr.py <filepath>
 **Example:**
 
 ```bash
-python yacr.py my_code.py -s
+python yacr.py yacr.py -s
 ```
 
-This will read the content of `my_code.py` and send it to the chat model for review. The model's response will be printed to the console.
+This will read the content of `yacr.py` (yes, it's the script itself) and send it to the chat model for review. The model's response will be printed to the console.
+
+Here is the output:
+![Screenshot from 2025-04-15 00-34-06](https://github.com/user-attachments/assets/3763ca2b-085e-4371-95ef-22232b1648ec)
